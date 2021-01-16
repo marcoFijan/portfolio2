@@ -1,12 +1,19 @@
 <script>
-  const world = 'world'; // edit world and save to see hmr update
+  import Home from '/src/Components/Pages/Home.svelte';
+
 </script>
 
 <style>
-  h1 {
-    color: orangered; /* change color an save to see hmr update */
+  :global(*){
+    font-family: 'Roboto', sans-serif;
+  }
+
+  :global(body){
+    min-height: 100vh;
+    background: rgb(59,167,253);
+    background: linear-gradient(164deg, rgba(59,167,253,1) 0%, rgba(72,79,238,1) 100%);
+    background-attachment: fixed;
   }
 </style>
 
-<h1>Hello {world}</h1>
-<p>Open App.svelte in your editor and change something to see HMR in action</p>
+<Home></Home>
