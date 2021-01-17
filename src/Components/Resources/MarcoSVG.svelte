@@ -1,71 +1,60 @@
-<script></script>
+<script>
+</script>
 <style>
-    h1{
-        position: absolute;
-        left: 2rem;
-        top: 0;
-        margin: 0;
-        padding: 0;
-        font-size: 13em;
-        text-transform: uppercase;
-        font-weight: 900;
-        color: transparent;
-        -webkit-text-stroke: 0px white;
-    }
-    h1::before{
-        content: attr(data-text);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        -webkit-text-stroke: .5px white;
-        overflow: hidden;
-        animation: nameTransition1 2s ease-in-out 3s 1 normal forwards ;
+    svg {
+        /* top: 10; */
+        /* left: 10; */
+        padding: 1rem 10%;
+        height: 30vh;
+        max-width: 80%;
+        overflow: visible; 
     }
 
-    h1::after{
-        content: attr(data-text);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 100%;
-        color: white;
-        overflow: hidden;
-        /* transition: color ease-in 2s; */
-        animation: nameTransition2 3s ease-in-out 6s 1 normal forwards ;
+    svg path:first-child{
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
     }
 
-    @keyframes nameTransition1{
-        0%{
-            width: 0%;
+    svg path{
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+        fill: transparent;
+        stroke: white;
+        stroke-width: .5;
+    }
+
+    svg path:first-child{
+        animation: stokeAnimation 2s ease-in-out 4s 1 normal forwards;
+    }
+
+    svg path:nth-child(2){
+        animation: stokeAnimation 2s ease-in-out 4.3s 1 normal forwards;
+    }
+
+    svg path:nth-child(3){
+        animation: stokeAnimation 2s ease-in-out 4.6s 1 normal forwards;
+    }
+
+    svg path:nth-child(4){
+        animation: stokeAnimation 2s ease-in-out 4.9s 1 normal forwards;
+    }
+
+    svg path:nth-child(5){
+        animation: stokeAnimation 2s ease-in-out 5.2s 1 normal forwards;
+    }
+
+
+    @keyframes stokeAnimation{
+        75%{
+            stroke-dashoffset: 0;
         }
         100%{
-            width: 100%;
-        }
-    }
-
-    @keyframes nameTransition2{
-        0%{
-            width: 100%;
-            color: transparent;
-        }
-        20%{
-            width: 100%;
-            color:white;
-        }
-        30%{
-            width: 100%;
-            color: white;
-        }
-        100%{
-            color:transparent;
-            width:100%;
+            stroke-dashoffset: 0;
+            stroke-width: .05;
         }
     }
 
 
 </style>
-
-<h1 data-text="Marco">Marco</h1>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.71 52.7"><title>Asset 5</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M45,51.55l-.14-23L33.91,47H26.42L15.48,29.38V51.55H0V1.15H14L30.38,28l16-26.86h14l.14,50.4Z"/><path d="M103,42.77H83.88L80.5,51.55H63.22l22-50.4H102l22,50.4H106.42ZM98.35,30.53,93.46,17.86l-4.9,12.67Z"/><path d="M148.32,38.88h-4.61V51.55h-17V1.15H151a29.66,29.66,0,0,1,12.17,2.31A17.43,17.43,0,0,1,174,20.16a17.83,17.83,0,0,1-2.45,9.43A17.23,17.23,0,0,1,164.45,36L175,51.55H156.89Zm6.77-23.08a7.57,7.57,0,0,0-5.19-1.54h-6.19v11.8h6.19a7.57,7.57,0,0,0,5.19-1.54,5.58,5.58,0,0,0,1.73-4.36A5.58,5.58,0,0,0,155.09,15.8Z"/><path d="M192,49.36A25.12,25.12,0,0,1,182,40a25.9,25.9,0,0,1-3.64-13.65A25.87,25.87,0,0,1,182,12.71a25,25,0,0,1,10-9.36A30.67,30.67,0,0,1,206.42,0a31.6,31.6,0,0,1,13.11,2.59,24.33,24.33,0,0,1,9.5,7.49L218.3,19.66q-4.68-5.91-11-5.91a11.25,11.25,0,0,0-8.57,3.42q-3.24,3.42-3.24,9.18t3.24,9.18A11.25,11.25,0,0,0,207.29,39q6.33,0,11-5.9L229,42.62a24.24,24.24,0,0,1-9.5,7.49,31.6,31.6,0,0,1-13.11,2.59A30.66,30.66,0,0,1,192,49.36Z"/><path d="M244.65,49.32a25.25,25.25,0,0,1-13.82-23,25.25,25.25,0,0,1,13.82-23,33.31,33.31,0,0,1,29.24,0,25.25,25.25,0,0,1,13.82,23,25.25,25.25,0,0,1-13.82,23,33.31,33.31,0,0,1-29.24,0ZM265,37.4A11,11,0,0,0,269.06,33a13.93,13.93,0,0,0,1.51-6.66,14,14,0,0,0-1.51-6.66A11.08,11.08,0,0,0,265,15.3a11.33,11.33,0,0,0-11.44,0,11.08,11.08,0,0,0-4.07,4.39A14,14,0,0,0,248,26.35,13.93,13.93,0,0,0,249.48,33a11,11,0,0,0,4.07,4.39,11.33,11.33,0,0,0,11.44,0Z"/></g></g></svg>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.25 52.59"><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M13.78.7,26.93,37.83,40,.7H53.86V51.89H43.28v-14l1-24.15L30.52,51.89H23.27L9.49,13.78,10.55,37.9v14H0V.7Z"/><path d="M92.6,41.34H74.11L70.59,51.89H59.38L78.43.7h9.78l19.16,51.19H96.15ZM77,32.8H89.75L83.32,13.64Z"/><path d="M131.1,33.15h-8.4V51.89H112.15V.7h19q9.06,0,14,4.05t4.92,11.42a15.69,15.69,0,0,1-2.27,8.74,15.44,15.44,0,0,1-6.87,5.57L152,51.4v.49H140.7Zm-8.4-8.54h8.5a8.73,8.73,0,0,0,6.16-2A7.25,7.25,0,0,0,139.54,17a7.74,7.74,0,0,0-2.06-5.7c-1.37-1.38-3.48-2.07-6.31-2.07H122.7Z"/><path d="M198.28,34.84q-.6,8.27-6.1,13t-14.5,4.74q-9.84,0-15.49-6.62t-5.64-18.2V24.64a30.72,30.72,0,0,1,2.6-13A19.53,19.53,0,0,1,166.59,3a20.75,20.75,0,0,1,11.23-3q8.87,0,14.27,4.75t6.26,13.32H187.8q-.37-5-2.76-7.19t-7.22-2.23q-5.28,0-7.89,3.78t-2.69,11.72V28q0,8.29,2.51,12.13T177.68,44q4.89,0,7.29-2.23t2.76-6.91Z"/><path d="M247.25,27.46a30.91,30.91,0,0,1-2.67,13.25,20.11,20.11,0,0,1-7.64,8.79,21.18,21.18,0,0,1-11.41,3.09,21.4,21.4,0,0,1-11.36-3.05,20.35,20.35,0,0,1-7.73-8.74,30,30,0,0,1-2.78-13.06V25.21a30.84,30.84,0,0,1,2.72-13.31,20.35,20.35,0,0,1,7.7-8.82,22.54,22.54,0,0,1,22.75,0,20.28,20.28,0,0,1,7.7,8.82,30.6,30.6,0,0,1,2.72,13.27Zm-10.68-2.32q0-8.05-2.89-12.24a10.18,10.18,0,0,0-16.41-.05Q214.38,17,214.35,25v2.5q0,7.83,2.88,12.16a9.38,9.38,0,0,0,8.3,4.33,9.26,9.26,0,0,0,8.15-4.17q2.85-4.17,2.89-12.15Z"/></g></g></svg> -->

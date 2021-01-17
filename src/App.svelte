@@ -5,7 +5,11 @@
 
 <style>
   :global(*){
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  :global(h1){
+    font-family: 'Archivo Black', sans-serif;
   }
 
   :global(body){
@@ -13,6 +17,7 @@
     background: rgb(59,167,253);
     background: linear-gradient(164deg, rgba(59,167,253,1) 0%, rgba(72,79,238,1) 100%);
     background-attachment: fixed;
+    margin:0;
   }
 </style>
 
