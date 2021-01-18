@@ -1,9 +1,9 @@
 <script>
     import Header from '/src/Components/Organisms/Header.svelte';
-
     import MarcoHeader from '/src/Components/Resources/MarcoSVG.svelte';
     import FijanHeader from '/src/Components/Resources/FijanSVG.svelte';
     import HomeProjects from '/src/Components/Organisms/HomeProjects.svelte';
+    import HomeProces from '/src/Components/Organisms/HomeProces.svelte';
 </script>
 <style>
     img{
@@ -21,12 +21,15 @@
     }
     h2{
         color:white;
-        font-size: 1.5em;
+        font-size: 1.3em;
+        margin-bottom: 0;
+        font-weight: 100;
+        text-transform: uppercase;
     }
     article{
         position: absolute;
-        max-width: 40em;
-        margin-left: 7%;
+        max-width: 50em;
+        margin-left: 3rem;
         padding: 2rem;
         /* height: 55vh; */
         bottom: 0;
@@ -105,7 +108,7 @@
 <FijanHeader></FijanHeader>
 
 <article>
-    <h2>Dark mode? Nice!</h2>
+    <h2>Marco Fijan</h2>
     <h1>Website en User Interface Developer</h1>
     <p>Ik design en creeër webapplicaties die gebruikers fijn vinden om te gebruiken. Door mijn kennis van CSS3, HTML5, ES6 en frameworks te combineren lever ik symantisch correcte website die daarnaast modern, responsive en snel werken</p>
     <a href="#contact">Neem contact met me op!</a>
@@ -114,3 +117,4 @@
 <img src="/src/Images/IntroImage.png" alt="IntroImage"/>
 
 <HomeProjects></HomeProjects>
+<HomeProces></HomeProces>
