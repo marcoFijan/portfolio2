@@ -6,7 +6,7 @@
     // let CTAButton;
 
     let enableStickyButton = false;
-    let ctaButtonContent;
+    let ctaButtonContent = 'Neem contact met me op!';
 
     window.addEventListener('scroll', function(){
         if(y < 50){
@@ -153,7 +153,7 @@
     <h2>Marco Fijan</h2>
     <h1>Website en User Interface Developer</h1>
     <p>Ik design en creeër webapplicaties die gebruikers fijn vinden om te gebruiken. Door mijn kennis van CSS3, HTML5, ES6 en frameworks te combineren lever ik symantisch correcte website die daarnaast modern, responsive en snel werken</p>
-    <a href="#contact" contenteditable="true" bind:innerHTML={ctaButtonContent} class="{enableStickyButton ? 'stickyCTAButton': ''}">Neem contact met me op!</a>
+    <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}</a>
 </article>
 
 <img src="/src/Images/IntroImage.png" alt="IntroImage"/>

@@ -6,6 +6,7 @@
 <style>
   :global(*){
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth; 
   }
 
   :global(h1){

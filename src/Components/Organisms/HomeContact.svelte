@@ -23,7 +23,7 @@
     }
 
 </style>
-<article>
+<article id="contact">
     <h2>Neem contact met me op</h2>
     <h1>Contact</h1>
     <form>
