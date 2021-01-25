@@ -4,6 +4,7 @@
     import FijanHeader from '/src/Components/Resources/FijanSVG.svelte';
     import HomeProjects from '/src/Components/Organisms/HomeProjects.svelte';
     import HomeProces from '/src/Components/Organisms/HomeProces.svelte';
+    import HomeSkills from '/src/Components/Organisms/HomeSkills.svelte';
 </script>
 <style>
     img{
@@ -118,3 +119,4 @@
 
 <HomeProjects></HomeProjects>
 <HomeProces></HomeProces>
+<HomeSkills></HomeSkills>

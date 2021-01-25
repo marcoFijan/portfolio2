@@ -22,6 +22,10 @@
         margin: 0;
     }
 
+    h3{
+        font-family: 'Archivo Black', sans-serif;
+    }
+
     ul{
         list-style: none;
         padding: 0;
@@ -31,39 +35,38 @@
     }
 
     ul li{
-        background: transparent;
+        /* background: transparent; */
         color: black;
         text-align: center;
         height: 18rem;
         width: 12rem;
         border-radius: 1em;
         margin: 1.5rem;
-        perspective: 1000px;
-    }
-
-    .innerCard{
-        position: relative;
-        width: 100%;
-        height: 100%;
-        transition: all .8s;
-        transform-style: preserve-3d;
-    }
-
-    .ul li:hover .innerCard{
-        transform: rotateY(180deg);
-    }
-
-    .frontCard, .backCard {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden; /* Safari */
-        backface-visibility: hidden;
         background: white;
+        box-shadow: 0px 0px 10px #5e5e5e;
+        transition: transform 1s ease-in-out;
+        /* transition: rotate 1s ease-in-out; */
     }
 
-    .backCard{
-        transform: rotateY(180deg);
+    ul li:hover{
+        transform:translateY(-2.5rem) scale(1.1) rotate(1deg);
+    }
+
+    ul li:nth-child(2):hover, ul li:nth-child(4):hover, ul li:nth-child(6):hover, ul li:nth-child(8):hover{
+        transform:translateY(-2.5rem) scale(1.1) rotate(-1deg);
+    }
+
+    ul li div{
+        background: blue;
+        width: 6rem;
+        height: 5rem;
+        margin: 0 auto;
+    }
+
+    ul li p{
+        padding: 1rem;
+        box-sizing: border-box;
+        font-size: .8rem;
     }
 
 </style>
@@ -73,48 +76,44 @@
 
     <ul>
         <li>
-            <div class="innerCard">
-                <div class="frontCard">
-                    <h3>Onderzoek</h3>
-                    <div></div>
-                </div>
-                <div class="backCard">
-                    <h3>Onderzoek</h3>
-                    <p>Voor een goed ontwerp is onderzoek cruciaal. Ik verdiep me in uw doelgroep om zo de juiste kleuren, fonts en stylen toe te passen</p>
-                </div>
-            </div>
+            <h3>Onderzoek</h3>
+            <div></div>
+            <p>Onderzoek is cruciaal voor een goed ontwerp. Ik verdiep me in uw doelgroep om zo uw website in de juiste style vorm te geven</p>
         </li>
         <li>
-            <h3>Lofi Schetsen</h3>
+            <h3>LoFi Schetsen</h3>
             <div></div>
+            <p>Om een goede hiërarchie te creeëren, ontwerp ik eerst een paar LoFi-schetsen waar geen styling wordt toegepast</p>
         </li>
         <li>
             <h3>Feedback #1</h3>
             <div></div>
+            <p>Uw input is belangrijk. Na de LoFi-schetsen maak ik met u een afspraak om de hiërarchie te bespreken</p>
         </li>
         <li>
-            <h3>Hifi Schetsen + Feedback verwerking</h3>
+            <h3>HiFi Schetsen</h3>
             <div></div>
+            <p>Uw feedback verwerk ik in een HiFi ontwerp waar er kleuren en styling worden toegepast</p>
         </li>
         <li>
             <h3>Feedback #2</h3>
             <div></div>
-        </li>
-        <li>
-            <h3>Feedback verwerking</h3>
-            <div></div>
+            <p>Afspraak om te controleren of u het eens bent met het ontwerp. Daarnaast noteer ik uw feedback</p>
         </li>
         <li>
             <h3>Development</h3>
             <div></div>
+            <p>Nadat we een overeenstemming hebben over het design, ga ik voor u aan de slag met de development</p>
         </li>
         <li>
             <h3>Testen</h3>
             <div></div>
+            <p>Uw website wordt getest op onder andere responsiveness, browsersupport en javascript bugs</p>
         </li>
         <li>
             <h3>Oplevering</h3>
             <div></div>
+            <p>Ik loop met u door de website en we maken de afspraak rond</p>
         </li>
     </ul>
 </article>
