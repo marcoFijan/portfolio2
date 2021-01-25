@@ -1,9 +1,10 @@
 <script></script>
 <style>
     header{
-        color: white;
+        color: black;
         position: fixed;
         width: 100%;
+        z-index: 99999;
     }
     header ul{
         list-style: none;

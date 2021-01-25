@@ -5,7 +5,7 @@
         margin-top: 40vh;
         min-height: 100vh;
         width: 100%;
-        padding: 8rem 10%;
+        padding: 5rem 10%;
         box-sizing: border-box;
     }
 
@@ -28,6 +28,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
         grid-gap: 3rem;
+        z-index: 10;
     }
 
     ul li {
@@ -139,6 +140,13 @@
         background-position: right;
         box-shadow: 0px 0px 10px white;
     }
+
+    @media only screen and (max-width: 900px) {
+        ul{
+            grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+        }
+        
+}
 </style>
 
 <article>

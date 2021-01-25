@@ -4,7 +4,7 @@
         background: transparent;
         min-height: 100vh;
         width: 100%;
-        padding: 8rem 10%;
+        padding: 5rem 10%;
         box-sizing: border-box;
         color:white;
     }
