@@ -12,7 +12,7 @@
         font-size: 4rem;
         font-weight: 900;
         margin: 0;
-        margin-bottom: 6rem;
+        /* margin-bottom: 6rem; */
     }
 
     h2{
@@ -91,7 +91,7 @@
         left: 0;
         top: 35%;
         transform: translateY(-35%);
-        background: linear-gradient(164deg, rgba(249,172,57,1), rgba(237,76,76,1));
+        background: linear-gradient(164deg, rgb(249, 57, 207), rgb(207, 30, 104));
     }
 
     /* MARVEL  */

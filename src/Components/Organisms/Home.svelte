@@ -9,13 +9,13 @@
     let ctaButtonContent = 'Neem contact met me op!';
 
     window.addEventListener('scroll', function(){
-        if(y < 50){
+        if(y < 70){
             enableStickyButton = false;
             ctaButtonContent = 'Neem contact met me op!'
         }
         else{
             enableStickyButton = true;
-            ctaButtonContent = 'C'
+            ctaButtonContent = '';       
         }
     })
 
@@ -73,13 +73,13 @@
         text-decoration: none;
         text-align: center;
         align-self: center;
-        width: 15em;
+        width: 18rem;
         height: 3em;
         line-height: 3em;
         box-shadow: 0px 0px 3px white;
         border-radius: 2em;
         display: block;
-        max-width: 15rem;
+        /* max-width: 15rem; */
         margin: 2rem 0;
         text-align: center;
         z-index: 9999;
@@ -96,14 +96,23 @@
         box-shadow: 0px 0px 10px white;
     }
 
+    a>i{
+        padding-left: 1rem;
+        display: inline;
+    }
+
     .stickyCTAButton{
         position: fixed;
         bottom: 2rem;
         left: 93%;
-        /* right: 4rem; */
-        width: 4em;
-        height: 4em;
-        line-height: 4em;
+        width: 3.5rem;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        font-size: 1.2rem;
+    }
+
+    .stickyCTAButton>i{
+        padding:0;
     }
 
     @keyframes hoverInArticleOnLoad{
@@ -153,7 +162,7 @@
     <h2>Marco Fijan</h2>
     <h1>Website en User Interface Developer</h1>
     <p>Ik design en creeër webapplicaties die gebruikers fijn vinden om te gebruiken. Door mijn kennis van CSS3, HTML5, ES6 en frameworks te combineren lever ik symantisch correcte website die daarnaast modern, responsive en snel werken</p>
-    <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}</a>
+    <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}<i class="far fa-calendar-check"></i></a>
 </article>
 
 <img src="/src/Images/IntroImage.png" alt="IntroImage"/>
