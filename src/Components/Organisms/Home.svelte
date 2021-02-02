@@ -50,13 +50,12 @@
         position: absolute;
         max-width: 50em;
         margin-left: 3rem;
-        padding: 2rem;
+        padding-left: 10%;
         padding-bottom: 7rem;
         bottom: 0;
         opacity: 0;
         animation: hoverInArticleOnLoad 2s ease-in-out 1s 1 normal forwards ;
         box-sizing: border-box;
-        text-shadow: 1px 1px 2px #2c2c2c;
         z-index: 10;
     }
     p{
@@ -66,29 +65,30 @@
 
     a{
         display: flex;
-        background: rgb(237,76,76);
-        background: linear-gradient(120deg, rgba(237,76,76,1), rgba(249,172,57,1), rgba(237,76,76,1));
+        background: #ed4c4c;
+        background: linear-gradient(120deg, #ed4c4c, #f9ac39, rgba(237,76,76,1));
         background-size: 200%;
         color: white;
         text-decoration: none;
         text-align: center;
         align-self: center;
-        width: 18rem;
+        width: 22rem;
         height: 3em;
         line-height: 3em;
         box-shadow: 0px 0px 3px white;
         border-radius: 2em;
         display: block;
-        /* max-width: 15rem; */
         margin: 2rem 0;
         text-align: center;
         z-index: 9999;
         position: fixed;
         bottom: 1rem;
-        left: 5rem;
+        right: 50%;
+        transform: translateX(50%);
         opacity: 0;
         animation: hoverInButtonOnLoad 1s ease-in-out 3s 1 normal forwards ;
         transition: all .5s ease-in-out;
+        font-size: 1.3rem;
     }
 
     a:hover{
@@ -104,7 +104,7 @@
     .stickyCTAButton{
         position: fixed;
         bottom: 2rem;
-        left: 93%;
+        right: 3%;
         width: 3.5rem;
         height: 3.5rem;
         line-height: 3.5rem;

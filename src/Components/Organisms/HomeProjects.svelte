@@ -3,7 +3,7 @@
     article{
         background: #f1f1f1;;
         margin-top: 40vh;
-        min-height: 100vh;
+        min-height: 60vh;
         width: 100%;
         padding: 5rem 10%;
         box-sizing: border-box;
@@ -32,24 +32,11 @@
     }
 
     ul li {
-        /* height: 30em; */
         color: white;
         -webkit-box-shadow: 0px 5px 10px 0px #cacaca;
         box-shadow: 0px 3px 10px 0px #cacaca;
         border-radius: .3rem;
         transition: all .5s ease-in-out;
-    }
-
-    ul li:first-child{
-        background-image: url("src/Images/projectPlaceholder.svg");
-        background-position: center;
-        background-size: cover;
-        border-radius: .3rem;
-        height: 20rem;
-    }
-
-    ul li{
-        background-image: url("src/Images/projectPlaceholder.svg");
         background-position: center;
         background-size: cover;
         border-radius: .3rem;
@@ -61,12 +48,35 @@
         transform: scale(1.05);
     }
 
+    ul li:first-child{
+        background-image: url("src/Images/ProjectAanbouw.jpg");
+    }
+
+    ul li:nth-child(2){
+        background-image: url("src/Images/ProjectRingRing.jpg");
+    }
+
+    ul li:nth-child(3){
+        background-image: url("src/Images/ProjectVolkskrant.jpg");
+    }
+
+    ul li:nth-child(4){
+        background-image: url("src/Images/ProjectReisproducten.jpg");
+    }
+
+    ul li:nth-child(5){
+        background-image: url("src/Images/ProjectLijstie.jpg");
+    }
+
+    ul li:nth-child(6){
+        background-image: url("src/Images/ProjectRPG.jpg");
+    }
+
     ul li div{
         position: absolute;
         padding: 2rem 4rem;
         box-sizing: border-box;
-        /* background: linear-gradient(120deg, rgba(237,76,76,1), rgba(249,172,57,1)); */
-        background: linear-gradient(164deg, rgba(59,167,253,1) 0%, rgba(72,79,238,1) 100%);
+        background: linear-gradient(164deg, #f939cf, #cf1e68);
         height: 100%;
         width: 100%;
         opacity: 0;
@@ -132,7 +142,7 @@
         display: block;
         max-width: 15rem;
         /* height: 1em; */
-        margin: 2rem auto;
+        margin: 6rem auto 0 auto;
         text-align: center;
     }
 
@@ -145,6 +155,10 @@
         ul{
             grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
         }
+
+        ul li{
+            height: 15rem;
+        }
         
 }
 </style>
@@ -155,50 +169,50 @@
     
     <ul>
         <li>
-            <a href="something">
+            <a href="/StandaardAanbouw">
                 <div></div>
-                <h3>2019</h3>
+                <h3>2021-heden</h3>
+                <h4>Herontwerp website - Aanbouw website in nieuwe huisstijl</h4>
+                <p>Bekijk project </p>
+            </a>
+        </li>
+        <li>
+            <a href="/RingRing">
+                <div></div>
+                <h3>2021</h3>
                 <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
                 <p>Bekijk project </p>
             </a>
         </li>
         <li>
-            <a href="something">
+            <a href="/Volkskrant-Invalide-Parkeerplaatsen">
                 <div></div>
-                <h3>2019</h3>
-                <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
+                <h3>2020</h3>
+                <h4>Datainzichten Volkskrant - Parkeer-datavisualisatie voor de volkskrant</h4>
                 <p>Bekijk project </p>
             </a>
         </li>
         <li>
-            <a href="something">
+            <a href="/Reisartikelen">
                 <div></div>
-                <h3>2019</h3>
-                <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
+                <h3>2020</h3>
+                <h4>Herontwerp Reisartikelen.nl - Herontwerp voor tijdens de coronamaatregelen</h4>
                 <p>Bekijk project </p>
             </a>
         </li>
         <li>
-            <a href="something">
+            <a href="/Studentenreis-Vakantielijst">
                 <div></div>
                 <h3>2019</h3>
-                <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
+                <h4>Vakantie Web-app Studenten - Static responsive web app</h4>
                 <p>Bekijk project </p>
             </a>
         </li>
         <li>
-            <a href="something">
+            <a href="/Simple-Textbased-RPG">
                 <div></div>
-                <h3>2019</h3>
-                <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
-                <p>Bekijk project </p>
-            </a>
-        </li>
-        <li>
-            <a href="something">
-                <div></div>
-                <h3>2019</h3>
-                <h4>Dashboard Ring Ring - Datavisualisatie voor de beleidsmakers</h4>
+                <h3>2018-2019</h3>
+                <h4>Begrijpen Javascript - Simpel tekst RPG</h4>
                 <p>Bekijk project </p>
             </a>
         </li>

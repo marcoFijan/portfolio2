@@ -2,7 +2,7 @@
 <style>
     article{
         background: transparent;
-        min-height: 100vh;
+        min-height: 50vh;
         width: 100%;
         padding: 5rem 10%;
         box-sizing: border-box;
@@ -56,15 +56,14 @@
         transform:translateY(-2.5rem) scale(1.1) rotate(-1deg);
     }
 
-    ul li div{
-        background: blue;
-        width: 6rem;
-        height: 5rem;
+    ul li img{
+        /* width: 6rem; */
+        height: 6rem;
         margin: 0 auto;
     }
 
     ul li p{
-        padding: 1rem;
+        padding: 0 1rem 1rem 1rem;
         box-sizing: border-box;
         font-size: .8rem;
     }
@@ -77,42 +76,42 @@
     <ul>
         <li>
             <h3>Onderzoek</h3>
-            <div></div>
+            <img src="/src/Images/ProcessResearch.svg" alt="Onderzoek"/>
             <p>Onderzoek is cruciaal voor een goed ontwerp. Ik verdiep me in uw doelgroep om zo uw website in de juiste style vorm te geven</p>
         </li>
         <li>
             <h3>LoFi Schetsen</h3>
-            <div></div>
+            <img src="/src/Images/ProcessLoFi.svg" alt="LoFi"/>
             <p>Om een goede hiërarchie te creeëren, ontwerp ik eerst een paar LoFi-schetsen waar geen styling wordt toegepast</p>
         </li>
         <li>
             <h3>Feedback #1</h3>
-            <div></div>
+            <img src="/src/Images/ProcessFeedback.svg" alt="Feedback"/>
             <p>Uw input is belangrijk. Na de LoFi-schetsen maak ik met u een afspraak om de hiërarchie te bespreken</p>
         </li>
         <li>
             <h3>HiFi Schetsen</h3>
-            <div></div>
+            <img src="/src/Images/ProcessHiFi.svg" alt="HiFi"/>
             <p>Uw feedback verwerk ik in een HiFi ontwerp waar er kleuren en styling worden toegepast</p>
         </li>
         <li>
             <h3>Feedback #2</h3>
-            <div></div>
-            <p>Afspraak om te controleren of u het eens bent met het ontwerp. Daarnaast noteer ik uw feedback</p>
+            <img src="/src/Images/ProcessFeedback.svg" alt="Feedback"/>
+            <p>We maken weer een afspraak om te controleren of u het eens bent met het ontwerp. Ook noteer ik uw feedback</p>
         </li>
         <li>
             <h3>Development</h3>
-            <div></div>
-            <p>Nadat we een overeenstemming hebben over het design, ga ik voor u aan de slag met de development</p>
+            <img src="/src/Images/ProcessDevelopment.svg" alt="Development"/>
+            <p>Nadat we een overeenstemming hebben over het design, ga ik voor u aan de slag met het coderen van uw website</p>
         </li>
         <li>
             <h3>Testen</h3>
-            <div></div>
+            <img src="/src/Images/ProcessTesting.svg" alt="Testen"/>
             <p>Uw website wordt getest op onder andere responsiveness, browsersupport en javascript bugs</p>
         </li>
         <li>
             <h3>Oplevering</h3>
-            <div></div>
+            <img src="/src/Images/ProcessDeliver.svg" alt="Oplevering"/>
             <p>Ik loop met u door de website en we maken de afspraak rond</p>
         </li>
     </ul>

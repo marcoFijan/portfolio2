@@ -12,7 +12,6 @@
         font-size: 4rem;
         font-weight: 900;
         margin: 0;
-        /* margin-bottom: 6rem; */
     }
 
     h2{
@@ -24,8 +23,8 @@
     .skillImageWrapper{
         width: 60%;
         min-width: 900px;
-        height: 80vh;
-        margin: 0 auto;
+        height: 70vh;
+        margin: 2rem auto 0 auto;
         box-sizing: border-box;
         position: relative;
         display: flex;
@@ -33,11 +32,19 @@
         transition: all 1s ease-in-out;
     }
 
-    .skillImageWrapper img{
+    .skillImageWrapper picture{
         width: 50%;
-        min-width: 20rem;
+        min-width: 18rem;
         margin: 0 auto;
         display: block;
+        display: flex;
+    }
+
+    picture img{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .skillImageWrapper>div{
@@ -75,7 +82,7 @@
         left: 0;
         bottom: 35%;
         transform: translateY(35%);
-        background: linear-gradient(164deg, rgb(249, 57, 207), rgb(207, 30, 104));
+        background: linear-gradient(164deg, #f939cf, #cf1e68);
     }
 
     /* CSS  */
@@ -273,6 +280,23 @@
         .skillImageWrapper img{
             min-width: 15rem;
         }
+
+        .skillImageWrapper:hover>div{
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+
+        .skillImageWrapper:hover>div p{
+            font-size: .7rem;
+        }
+
+        .skillImageWrapper ul li p{
+            font-size: .9rem;
+        }
+
+        .skillImageWrapper ul li div{
+            margin-right: .5rem;
+        }
 }
 </style>
 
@@ -290,7 +314,12 @@
         <div><p>Svelte</p></div>
         <div><p>Adobe XD</p></div>
         <div><p>Photoshop</p></div>
-        <img src="src/Images/laptopIcon.svg" alt="laptopIcon"/>
+        <picture>
+            <source media="(min-width: 900px)" srcset="src/Images/laptopIcon.svg">
+            <img src="src/Images/phoneIcon.svg" alt="laptopIcon"/>
+        </picture>
+        
+        <!-- <img src="src/Images/laptopIcon.svg" alt="laptopIcon"/> -->
         <ul>
             <li><div></div><p>Expert</p></li>
             <li><div></div><p>Gevordered</p></li>

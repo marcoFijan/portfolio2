@@ -2,7 +2,7 @@
 <style>
     article{
         background: transparent;
-        min-height: 100vh;
+        min-height: 50vh;
         width: 100%;
         padding: 5rem 10%;
         box-sizing: border-box;

@@ -5,7 +5,9 @@
     "dev": "svite",
     "build": "svite build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "page": "^1.11.6"
+  },
   "devDependencies": {
     "svelte": "^3.29.7",
     "svelte-hmr": "^0.11.6",
