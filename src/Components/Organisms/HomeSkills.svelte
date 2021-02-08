@@ -53,7 +53,7 @@
         width: 3rem;
         height: 3rem;
         display: absolute;
-        background: linear-gradient(164deg, rgba(59,167,253,1) 0%, rgba(72,79,238,1) 100%);
+        background: linear-gradient(164deg, #34caee, #666bcc);
         color: white;
         border-radius: 5rem;
         text-align: center;
@@ -269,16 +269,18 @@
     }
 
     .skillImageWrapper ul li:nth-child(3) div{
-        background: linear-gradient(164deg, rgba(59,167,253,1) 0%, rgba(72,79,238,1) 100%);
+        background: linear-gradient(164deg, #34caee, #666bcc);
     }
 
     @media only screen and (max-width: 900px) {
         .skillImageWrapper {
-            min-width: 300px;
+            width: 100%;
+            min-width: 15rem;
+            cursor:pointer;
         }
 
         .skillImageWrapper img{
-            min-width: 15rem;
+            min-width: 13rem;
         }
 
         .skillImageWrapper:hover>div{
@@ -297,17 +299,17 @@
         .skillImageWrapper ul li div{
             margin-right: .5rem;
         }
-}
+    }
 </style>
 
-<article>
+<article id="skills">
     <h2>Hoe ervaren ik ben</h2>
     <h1>Vaardigheden</h1>
     <section class="skillImageWrapper">
         <div><p>HTML</p></div>
         <div><p>CSS</p></div>
         <div><p>Javascript</p></div>
-        <div><p>Marvel</p></div>
+        <div><p>Wordpress</p></div>
         <div><p>Figma</p></div>
         <div><p>Illustrator</p></div>
         <div><p>Github</p></div>

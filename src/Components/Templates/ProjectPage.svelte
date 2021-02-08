@@ -16,14 +16,13 @@
         background: #f1f1f1;
         height: 100vh;
         width: 100%;
-        padding: 5rem 10% 1rem 10%;
+        padding: 3rem 10% 1rem 10%;
         box-sizing: border-box;
         display: grid;
         grid-gap: 4rem;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr), minmax(20em, 2fr));
     }
-
 
     article section:nth-child(2){
         overflow-y: scroll;
@@ -51,6 +50,25 @@
         margin: 1px;
     }
 
+    div{
+        margin-top: 2.5rem;
+        text-align: center;
+    }
+
+    .goBackButton{
+        color: black;
+        border: 1px solid black;
+        border-radius: 2rem;
+        padding: .8rem 1.5rem;
+        text-decoration: none;
+        transition: all .5s ease-in-out;
+        margin: 0 auto;
+    }
+
+    .goBackButton:hover{
+        background: white;
+    }
+
     @media only screen and (max-width: 900px) {
         article section:nth-child(2){
             overflow-y: auto;
@@ -58,6 +76,12 @@
 
         article{
             height: auto;
+        }
+
+        article section:nth-child(2){
+            padding: 0;
+            background: transparent;
+            box-shadow: none;
         }
     }
 
@@ -75,10 +99,14 @@
             liveLink={liveLink}
             targetAudience={targetAudience}>
         </ProjectContent>
+        <div>
+            <a class="goBackButton" href="/">
+                Ga terug naar hoofdpagina
+            </a>
+        </div>
     </section>
     <section>
         <h2>Ontwerp</h2>
         <slot></slot>
     </section>
-
 </article>

@@ -13,7 +13,7 @@
         font-size: 4rem;
         font-weight: 900;
         margin: 0;
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
 
     h2{
@@ -141,7 +141,6 @@
         transition: all .5s ease-in-out;
         display: block;
         max-width: 15rem;
-        /* height: 1em; */
         margin: 6rem auto 0 auto;
         text-align: center;
     }
@@ -159,13 +158,17 @@
         ul li{
             height: 15rem;
         }
+
+        ul li h4{
+            font-size: 1.1rem;
+        }
         
 }
 </style>
 
-<article>
+<article id="projects">
     <h2>Mijn top ontworpen projecten</h2>
-    <h1>Projects</h1>
+    <h1>Projecten</h1>
     
     <ul>
         <li>

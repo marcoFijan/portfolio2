@@ -13,7 +13,6 @@
 
   // Variables
   let page;
-  let params;
 
   // Routes
   router('/', () => (page = Home));
@@ -42,7 +41,7 @@
   :global(body){
     min-height: 100vh;
     background: #3ba7fd;
-    background: linear-gradient(164deg, rgba(59,167,253,1) 0%, #484fee 100%);
+    background: linear-gradient(164deg, #34caee, #666bcc);
     background-attachment: fixed;
     margin:0;
   }
@@ -64,9 +63,29 @@
       margin: 1px;
   }
 
+  /* @media (prefers-color-scheme: dark){
+    :global(body){
+        background: #121417;
+    }
+    :global(h1){
+        color: red !important;
+    }
+    :global(article){
+      background: #121417 !important;
+    }
+
+    :global(header){
+        background: #121417 !important;
+    }
+
+    :global(header article){
+        background: transparent !important;
+    }
+  } */
+
   @media only screen and (max-width: 900px) {
       :global(h1){
-        font-size: 2.5rem !important;
+        font-size: 2rem !important;
       }
 
       :global(article){

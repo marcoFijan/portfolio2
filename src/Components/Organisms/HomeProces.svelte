@@ -13,7 +13,7 @@
         font-size: 4rem;
         font-weight: 900;
         margin: 0;
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
 
     h2{
@@ -69,7 +69,7 @@
     }
 
 </style>
-<article>
+<article id="proces">
     <h2>Hoe ik een ontwerpproces doorloop</h2>
     <h1>Proces</h1>
 
@@ -97,7 +97,7 @@
         <li>
             <h3>Feedback #2</h3>
             <img src="/src/Images/ProcessFeedback.svg" alt="Feedback"/>
-            <p>We maken weer een afspraak om te controleren of u het eens bent met het ontwerp. Ook noteer ik uw feedback</p>
+            <p>We maken samen weer een afspraak om te controleren of u het eens bent met het ontwerp. Ook noteer ik uw feedback</p>
         </li>
         <li>
             <h3>Development</h3>

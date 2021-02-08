@@ -9,10 +9,10 @@
         box-sizing: border-box;
     }
 
-    h3{
+    /* h3{
         border-top: .5px solid rgb(150, 150, 150);
         padding-top: 2rem;
-    }
+    } */
 </style>
 
 <ProjectPage

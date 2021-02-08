@@ -9,10 +9,10 @@
         box-sizing: border-box;
     }
 
-    h3{
+    /* h3{
         border-top: .5px solid rgb(150, 150, 150);
         padding-top: 2rem;
-    }
+    } */
 </style>
 
 <ProjectPage
@@ -25,8 +25,8 @@
     liveLink={'https://cocky-northcutt-c3cbf4.netlify.app/'}>
         <h3>Benodigde beschikbare invalide parkeerplekken</h3>
         <img src="/src/Images/volkskrantInvalide.png" alt="Volkskrant project - Invalide parkeerplekken"/>
-        <p>Ik koos voor mijn ontwerp om me te focussen op de invalide. Ik vroeg me af of er genoeg parkeerplekken waren voor invalide. Ik nam hiervoor de invalide cijfers van het CBS en de parkeerdata van RDW. Ik deed dit, vanwege de tijd en incomplete data, vrij globaal per provincie in plaats van per stad</p>
+        <p>Ik koos voor mijn ontwerp om me te focussen op de fysiek invaliden. Ik vroeg me af of er genoeg parkeerplekken toegankelijk zijn voor lichamelijk gehandicapten. Ik nam hiervoor de invalide cijfers van het CBS en de parkeerdata van RDW. Ik deed dit, vanwege de tijd en incomplete data, vrij globaal per provincie in plaats van per stad</p>
         <p>Op deze pagina kan er gekeken worden of de provincie naar keuze voldoende parkeerplekken heeft. Dit wordt in tekstvorm uitgelegd. Met behulp van svelte wordt deze tekst automatisch aangepast met de juiste gegevens</p>
         <p>Daarna kunnen provincies met elkaar vergeleken worden. Hier wordt weergegeven hoeveel procent van de bevolking van een provincie een lichamelijke handicap heeft.</p>
-        <p>Vervolgens wordt er met D3 een stapen staafdiagram getoond waar er gekeken kan worden wat de verhoudingen zijn voor toegankelijke parkeerplekken. Daarnaast kan deze diagram ook gefiltert worden.</p>
+        <p>Vervolgens wordt er met D3 een stapel staafdiagram getoond waar er gekeken kan worden wat de verhoudingen zijn voor toegankelijke parkeerplekken. Daarnaast kan deze diagram ook gefiltert worden.</p>
 </ProjectPage>

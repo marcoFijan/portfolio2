@@ -1,4 +1,53 @@
-<script></script>
+<script>
+    // Binded variables 
+    let form;
+    let status;
+    
+    window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+
+    // var button = document.getElementById("my-form-button");
+    // var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+
+        function success() {
+            form.reset();
+            status.innerHTML = "Uw bericht is succesvol verzonden. Ik neem zo snel mogelijk contact met u op!";
+        }
+
+        function error() {
+            status.innerHTML = "Er ging iets fout, controleer uw gegevens";
+        }
+
+    // handle the form submission event
+
+        form.addEventListener("submit", function(ev) {
+            ev.preventDefault();
+            let data = new FormData(form);
+            ajax(form.method, form.action, data, success, error);
+        });
+    });
+
+    // helper function for sending an AJAX request
+
+    function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status === 200) {
+                success(xhr.response, xhr.responseType);
+            } 
+            else {
+                error(xhr.status, xhr.response, xhr.responseType);
+            }
+        };
+        xhr.send(data);
+    }
+</script>
 <style>
     article{
         background: transparent;
@@ -13,13 +62,19 @@
         font-size: 4rem;
         font-weight: 900;
         margin: 0;
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
     }
 
     h2{
         font-weight: 100;
         font-size: 1.2rem;
         margin: 0;
+    }
+
+    p{
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.1rem;
     }
 
     form{
@@ -68,6 +123,7 @@
     form input:required:valid, form textarea:required:valid{
         color: rgb(236, 236, 236);
         background: transparent;
+        font-style: italic;
     }
 
     form label{
@@ -85,9 +141,10 @@
         padding: 1em;
         box-shadow: 0px 0px 3px white;
         border-radius: 2em;
+        border: none;
         transition: all .5s ease-in-out;
         display: block;
-        max-width: 15rem;
+        width: 12rem;
         /* height: 1em; */
         margin: 2rem auto;
         text-align: center;
@@ -98,15 +155,12 @@
         box-shadow: 0px 0px 10px white;
     }
 
-    /* form>section>label, form>section>input{
-        width: 40%;
-    } */
-
 </style>
 <article id="contact">
     <h2>Neem contact met me op</h2>
     <h1>Contact</h1>
-    <form>
+    <p bind:this="{status}">Vul alstublieft uw gegevens in</p>
+    <form action="https://formspree.io/f/mwkwzwbq" method="POST" bind:this="{form}">
         <section>
             <section>
                 <label for="name"> Voornaam </label>
@@ -123,9 +177,10 @@
         <input type="text" id="subject" name="subject" required/>
         <label for="message">Uw bericht of vraag</label>
         <textarea id="message" name="message" required></textarea>
+        <button class="CTAButton" type="submit">Verstuur bericht</button>
     </form>
     
-    <a class="CTAButton" href="#s" >Verstuur bericht</a>
+    <!-- <a class="CTAButton" href="#s" >Verstuur bericht</a> -->
 
 </article>
 

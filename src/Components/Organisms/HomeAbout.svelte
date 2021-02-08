@@ -55,7 +55,7 @@
     }
 
     .aboutContent img{
-        width: 20em;
+        width: 10rem;
         height: 40em;
         padding: 0 1rem;
     }
@@ -66,7 +66,7 @@
 
 </style>
 
-<article>
+<article id="about">
     <h2>Meer informatie over de developer</h2>
     <h1>Over Marco</h1>
     <section class="aboutContent">

@@ -16,7 +16,7 @@
     h1{
         margin: 0;
         padding: 0;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 </style>
 

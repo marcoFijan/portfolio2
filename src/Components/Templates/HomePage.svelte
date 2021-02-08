@@ -6,8 +6,8 @@
     import HomeSkills from '/src/Components/Organisms/HomeSkills.svelte';
     import HomeAbout from '/src/Components/Organisms/HomeAbout.svelte';
     import HomeContact from '/src/Components/Organisms/HomeContact.svelte';
+    import Footer from '/src/Components/Organisms/Footer.svelte';
 </script>
-
 <HeaderHome></HeaderHome>
 <Home></Home>
 <HomeProjects></HomeProjects>
@@ -15,3 +15,4 @@
 <HomeSkills></HomeSkills>
 <HomeAbout></HomeAbout>
 <HomeContact></HomeContact>
+<Footer></Footer>
