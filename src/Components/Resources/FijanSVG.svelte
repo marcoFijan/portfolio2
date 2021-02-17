@@ -49,7 +49,13 @@
         }
         100%{
             stroke-dashoffset: 0;
-            stroke-width: .05;
+            stroke-width: .1;
+        }
+    }
+
+    @media only screen and (max-width: 900px){
+        svg{
+            height: 10vh;
         }
     }
 

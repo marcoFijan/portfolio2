@@ -55,10 +55,12 @@
     }
 
     .aboutContent img{
-        max-width: 25rem;
+        max-width: 20rem;
         margin: 0 auto;
         border-radius: .2rem;
+        object-fit: cover;
     }
+
 
     article>section>section{
         flex-grow: 1;

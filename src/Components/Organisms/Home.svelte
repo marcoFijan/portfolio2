@@ -31,7 +31,7 @@
         position: absolute;
         right: 5%;
         bottom: 0;
-        margin-bottom: -40vh;
+        margin-bottom: -27vh;
         height: 80vh;
         animation: hoverInImageOnLoad 2s ease-in-out 0s 1 normal forwards ;
         z-index: 5;
@@ -68,6 +68,7 @@
         animation: hoverInArticleOnLoad 2s ease-in-out 1s 1 normal forwards ;
         box-sizing: border-box;
         z-index: 10;
+        text-shadow: 1px 1px rgb(87, 87, 87);
     }
     p{
         color:white;
@@ -99,6 +100,7 @@
         animation: hoverInButtonOnLoad 1s ease-in-out 3s 1 normal forwards ;
         transition: all .5s ease-in-out;
         font-size: 1.1rem;
+        text-shadow: none;
     }
 
     a:hover{
@@ -265,6 +267,17 @@
     @media only screen and (max-width: 900px) {
         div{
             display: none;
+        }
+        a{
+            bottom: 4rem;
+            width: 17rem;
+            height: 2.5em;
+            line-height: 2.5em;
+            font-size: 1rem;
+        }
+        article{
+            bottom: auto;
+            top: 1vh;
         }
     }
 </style>

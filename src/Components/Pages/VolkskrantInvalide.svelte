@@ -24,7 +24,7 @@
     githubLink={'https://github.com/marcoFijan/frontend-applications'}
     liveLink={'https://cocky-northcutt-c3cbf4.netlify.app/'}>
         <h3>Benodigde beschikbare invalide parkeerplekken</h3>
-        <img src="/volkskrantInvalide.png" alt="Volkskrant project - Invalide parkeerplekken"/>
+        <img src="/volkskrantInvalide.jpg" alt="Volkskrant project - Invalide parkeerplekken"/>
         <p>Ik koos voor mijn ontwerp om me te focussen op de fysiek invaliden. Ik vroeg me af of er genoeg parkeerplekken toegankelijk zijn voor lichamelijk gehandicapten. Ik nam hiervoor de invalide cijfers van het CBS en de parkeerdata van RDW. Ik deed dit, vanwege de tijd en incomplete data, vrij globaal per provincie in plaats van per stad</p>
         <p>Op deze pagina kan er gekeken worden of de provincie naar keuze voldoende parkeerplekken heeft. Dit wordt in tekstvorm uitgelegd. Met behulp van svelte wordt deze tekst automatisch aangepast met de juiste gegevens</p>
         <p>Daarna kunnen provincies met elkaar vergeleken worden. Hier wordt weergegeven hoeveel procent van de bevolking van een provincie een lichamelijke handicap heeft.</p>

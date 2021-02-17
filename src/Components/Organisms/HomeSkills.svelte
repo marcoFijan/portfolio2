@@ -22,7 +22,7 @@
 
     .skillImageWrapper{
         width: 60%;
-        min-width: 900px;
+        min-width: 800px;
         height: 70vh;
         margin: 2rem auto 0 auto;
         box-sizing: border-box;
@@ -298,6 +298,12 @@
 
         .skillImageWrapper ul li div{
             margin-right: .5rem;
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+        .skillImageWrapper {
+            width: 900px;
         }
     }
 </style>
