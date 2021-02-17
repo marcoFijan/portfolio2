@@ -56,16 +56,10 @@
         transform:translateY(-2.5rem) scale(1.1) rotate(-1deg);
     }
 
-    ul li div{
-        /* width: 6rem; */
-        height: 6rem;
+    ul li img{
         width: 6rem;
+        height: 6rem;
         margin: 0 auto;
-    }
-
-    ul li div:first-child{
-        background-image: url("/ProcessResearch.svg");
-        background-size: cover;
     }
 
     ul li p{
@@ -82,8 +76,7 @@
     <ul>
         <li>
             <h3>Onderzoek</h3>
-            <div></div>
-            <!-- <img src="/ProcessResearch.svg" alt="Onderzoek"/> -->
+            <img src="/ProcessResearch.svg" alt="Onderzoek"/>
             <p>Onderzoek is cruciaal voor een goed ontwerp. Ik verdiep me in uw doelgroep om zo uw website in de juiste style vorm te geven</p>
         </li>
         <li>
