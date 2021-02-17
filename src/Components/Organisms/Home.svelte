@@ -27,7 +27,7 @@
         background: transparent;
     }
 
-    img{
+    .marco{
         position: absolute;
         right: 5%;
         bottom: 0;
@@ -38,7 +38,7 @@
         transition: margin .6s ease-in-out;
     }
 
-    img:hover{
+    .marco:hover{
         margin-bottom: -10vh;
     }
 
@@ -82,6 +82,7 @@
         color: white;
         text-decoration: none;
         text-align: center;
+        align-items: center;
         width: 22rem;
         height: 3em;
         line-height: 3em;
@@ -105,9 +106,11 @@
         box-shadow: 0px 0px 10px white;
     }
 
-    a>i{
+    a>img{
         padding-left: 1rem;
-        display: inline;
+        display: inline-block;
+        height: 1rem;
+        align-self: center;
     }
 
     .stickyCTAButton{
@@ -120,8 +123,11 @@
         font-size: 1.2rem;
     }
 
-    .stickyCTAButton>i{
+    .stickyCTAButton>img{
         padding:0;
+        height: 1.7rem;
+        padding-top: .8rem;
+        color: transparent;
     }
 
     div div{
@@ -286,7 +292,7 @@
     <h2>Marco Fijan</h2>
     <h1>Website en User Interface Designer & Developer</h1>
     <p>Ik design en creeër webapplicaties die gebruikers fijn vinden om te gebruiken. Door mijn kennis van CSS3, HTML5, ES6 en frameworks te combineren lever ik symantisch correcte website die daarnaast modern, responsive en snel werken</p>
-    <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}<i class="far fa-calendar-check"></i></a>
+    <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}<img src="/contact.svg" alt="contactIcon"></a>
 </article>
 
-<img style="transform: translate(0,{-y * 1}px)" src="/IntroImage.png" alt="IntroImage"/>
+<img class="marco" style="transform: translate(0,{-y * 1}px)" src="/IntroImage.png" alt="IntroImage"/>
