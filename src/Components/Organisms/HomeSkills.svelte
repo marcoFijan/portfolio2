@@ -313,8 +313,8 @@
         <div><p>Figma</p></div>
         <div><p>Illustrator</p></div>
         <div><p>Github</p></div>
-        <div><p>Svelte</p></div>
-        <div><p>Adobe XD</p></div>
+        <div><p>Unity Engine</p></div>
+        <div><p>C#</p></div>
         <div><p>Photoshop</p></div>
         <picture>
             <source media="(min-width: 900px)" srcset="src/Images/laptopIcon.svg">

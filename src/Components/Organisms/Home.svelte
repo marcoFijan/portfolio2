@@ -23,17 +23,31 @@
 
 </script>
 <style>
+    section{
+        position: absolute;
+        top: 0;
+        background: transparent;
+    }
+
     img{
         position: absolute;
-        right: 10%;
+        right: 5%;
         bottom: 0;
-        height: 70vh;
-        width: 20em;
+        margin-bottom: -40vh;
+        height: 80vh;
         animation: hoverInImageOnLoad 2s ease-in-out 0s 1 normal forwards ;
-        z-index: 10;
+        z-index: 5;
+        transition: margin .6s ease-in-out;
     }
+
+    img:hover{
+        margin-bottom: -10vh;
+    }
+
+
+
     h1{
-        font-size: 4em;
+        font-size: 3.6em;
         color: white;
         margin: 0;
         z-index: 10;
@@ -252,6 +266,8 @@
     }
 </style>
 
+<section id="home"></section>
+
 <MarcoHeader></MarcoHeader>
 <FijanHeader></FijanHeader>
 
@@ -271,9 +287,9 @@
 
 <article>
     <h2>Marco Fijan</h2>
-    <h1>Website en User Interface Developer</h1>
+    <h1>Website en User Interface Designer & Developer</h1>
     <p>Ik design en creeër webapplicaties die gebruikers fijn vinden om te gebruiken. Door mijn kennis van CSS3, HTML5, ES6 en frameworks te combineren lever ik symantisch correcte website die daarnaast modern, responsive en snel werken</p>
     <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}<i class="far fa-calendar-check"></i></a>
 </article>
 
-<img src="/src/Images/IntroImage.png" alt="IntroImage"/>
+<img style="transform: translate(0,{-y * 1}px)" src="/src/Images/IntroImage.png" alt="IntroImage"/>

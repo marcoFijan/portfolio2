@@ -5,13 +5,6 @@
     
     window.addEventListener("DOMContentLoaded", function() {
 
-    // get the form elements defined in your form HTML above
-
-    // var button = document.getElementById("my-form-button");
-    // var status = document.getElementById("my-form-status");
-
-    // Success and Error functions for after the form is submitted
-
         function success() {
             form.reset();
             status.innerHTML = "Uw bericht is succesvol verzonden. Ik neem zo snel mogelijk contact met u op!";
@@ -21,16 +14,12 @@
             status.innerHTML = "Er ging iets fout, controleer uw gegevens";
         }
 
-    // handle the form submission event
-
         form.addEventListener("submit", function(ev) {
             ev.preventDefault();
             let data = new FormData(form);
             ajax(form.method, form.action, data, success, error);
         });
     });
-
-    // helper function for sending an AJAX request
 
     function ajax(method, url, data, success, error) {
         var xhr = new XMLHttpRequest();
@@ -105,6 +94,7 @@
         font-size: .9rem;
         transition: all .3s ease-in-out;
         line-height: 1.5rem;
+        background: #f1f1f1;
     }
 
     form input:focus, form textarea:focus{
@@ -145,7 +135,6 @@
         transition: all .5s ease-in-out;
         display: block;
         width: 12rem;
-        /* height: 1em; */
         margin: 2rem auto;
         text-align: center;
     }
@@ -179,8 +168,5 @@
         <textarea id="message" name="message" required></textarea>
         <button class="CTAButton" type="submit">Verstuur bericht</button>
     </form>
-    
-    <!-- <a class="CTAButton" href="#s" >Verstuur bericht</a> -->
-
 </article>
 

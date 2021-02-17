@@ -63,10 +63,14 @@
         text-decoration: none;
         transition: all .5s ease-in-out;
         margin: 0 auto;
+        box-shadow: 0px 0px 0px white;
     }
 
     .goBackButton:hover{
-        background: white;
+        background: rgba(59,167,253,1);
+        color: white;
+        border: 1px solid white;
+        box-shadow: 0px 0px 3px white;
     }
 
     @media only screen and (max-width: 900px) {
@@ -100,7 +104,7 @@
             targetAudience={targetAudience}>
         </ProjectContent>
         <div>
-            <a class="goBackButton" href="/">
+            <a class="goBackButton" href="/#projects">
                 Ga terug naar hoofdpagina
             </a>
         </div>

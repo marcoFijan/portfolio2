@@ -63,26 +63,6 @@
       margin: 1px;
   }
 
-  /* @media (prefers-color-scheme: dark){
-    :global(body){
-        background: #121417;
-    }
-    :global(h1){
-        color: red !important;
-    }
-    :global(article){
-      background: #121417 !important;
-    }
-
-    :global(header){
-        background: #121417 !important;
-    }
-
-    :global(header article){
-        background: transparent !important;
-    }
-  } */
-
   @media only screen and (max-width: 900px) {
       :global(h1){
         font-size: 2rem !important;
@@ -91,8 +71,8 @@
       :global(article){
         padding-right: 1rem !important;
         padding-left: 1rem !important;
-      }
-}
+      } 
+  }
 </style>
 
 <svelte:component this={page} />

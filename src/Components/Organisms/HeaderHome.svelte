@@ -1,7 +1,4 @@
 <script>
-    // import DarkModeStore from '/src/Stores/DarkModeStore.js'
-    // import {onDestroy } from 'svelte'
-
     let y;
     let gradientHeader = false;
     let hamburgerMenu = false;
@@ -24,41 +21,6 @@
             
         }
     }
-
-
-
-
-    // SUBSCRIBE TO STORE
-    // DarkModeStore.subscribe(data => {
-    //     console.log('update')
-    //     darkmode = data;
-    // });
-
-    // function handleChange(){
-    //     DarkModeStore.subscribe(data => {
-    //     console.log('update')
-    //     darkmode = data;
-    // });
-    // }
-
-    // unsubDarkModeStore = DarkModeStore.subscribe(storeData => {
-    //     storedDarkmode = storeData;
-    // });
-
-    // function updateStore(){
-    //     DarkModeStore.update(() => { 
-    //     return {
-    //         darkmode: darkmode
-    //         };       
-    //     }); 
-    // }
-
-    // updateStore();
-
-    // onDestroy(() =>{
-    //     updateStore();
-    // }); 
-
 </script>
 <style>
     header{
@@ -86,7 +48,7 @@
     }
 
     header ul li{
-        padding: .5rem 0;
+        padding: .05rem 0 .15rem 0;
     }
 
     header ul li a{
@@ -116,7 +78,6 @@
         height: 3.5rem;
         cursor: pointer;
         background: #4ba3e0;
-        /* background: linear-gradient(164deg, #34caee, #4ba3e0, #34caee); */
         background-size: 200%;
         border-radius: 2rem;
         z-index: 9999;
@@ -249,9 +210,5 @@
                 Contact
             </a>
         </li>
-        <!-- <li>
-            <input type="checkbox" name="dark" id="dark" bind:value={darkmode}>
-            <label for="dark"><i class="fas fa-moon"></i></label>
-        </li> -->
     </ul>
 </header>

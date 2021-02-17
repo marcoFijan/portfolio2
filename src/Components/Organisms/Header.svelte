@@ -22,7 +22,6 @@
     }
 
     header ul li a{
-        font-weight: bold;
         border-bottom: 1px solid transparent;
         padding-bottom: 1rem;
         transition: all .5s ease-in-out;
