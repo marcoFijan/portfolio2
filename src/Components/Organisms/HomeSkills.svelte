@@ -317,8 +317,8 @@
         <div><p>C#</p></div>
         <div><p>Photoshop</p></div>
         <picture>
-            <source media="(min-width: 900px)" srcset="src/Images/laptopIcon.svg">
-            <img src="src/Images/phoneIcon.svg" alt="laptopIcon"/>
+            <source media="(min-width: 900px)" srcset="../../Images/laptopIcon.svg">
+            <img src="../../Images/phoneIcon.svg" alt="laptopIcon"/>
         </picture>
         
         <!-- <img src="src/Images/laptopIcon.svg" alt="laptopIcon"/> -->

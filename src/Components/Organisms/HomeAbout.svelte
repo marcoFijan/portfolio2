@@ -79,7 +79,7 @@
     <h2>Meer informatie over de developer</h2>
     <h1>Over Marco</h1>
     <section class="aboutContent">
-        <img src="src/Images/MarcoBureau.jpg" alt="Afbeelding van Marco Fijan"/>
+        <img src="../../Images/MarcoBureau.jpg" alt="Afbeelding van Marco Fijan"/>
         <section>
             <p><strong>Marco Daniël Fijan</strong></p>
             <p><strong>25 Jaar oud</strong></p>
