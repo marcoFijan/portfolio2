@@ -3,8 +3,6 @@
     import FijanHeader from '/src/Components/Resources/FijanSVG.svelte';
 
     let y;
-    // let CTAButton;
-
     let enableStickyButton = false;
     let ctaButtonContent = 'Neem contact met me op!';
 
@@ -84,7 +82,6 @@
         color: white;
         text-decoration: none;
         text-align: center;
-        /* align-self: center; */
         width: 22rem;
         height: 3em;
         line-height: 3em;
