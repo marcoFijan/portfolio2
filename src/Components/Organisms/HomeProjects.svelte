@@ -49,27 +49,27 @@
     }
 
     ul li:first-child{
-        background-image: url("../../Images/ProjectAanbouw.jpg");
+        background-image: url("/ProjectAanbouw.jpg");
     }
 
     ul li:nth-child(2){
-        background-image: url("../../Images/ProjectRingRing.jpg");
+        background-image: url("/ProjectRingRing.jpg");
     }
 
     ul li:nth-child(3){
-        background-image: url("../../Images/ProjectVolkskrant.jpg");
+        background-image: url("/ProjectVolkskrant.jpg");
     }
 
     ul li:nth-child(4){
-        background-image: url("../../Images/ProjectReisproducten.jpg");
+        background-image: url("/ProjectReisproducten.jpg");
     }
 
     ul li:nth-child(5){
-        background-image: url("../../Images/ProjectLijstie.jpg");
+        background-image: url("/ProjectLijstie.jpg");
     }
 
     ul li:nth-child(6){
-        background-image: url("../../Images/ProjectRPG.jpg");
+        background-image: url("/ProjectRPG.jpg");
     }
 
     ul li div{

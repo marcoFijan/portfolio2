@@ -1,6 +1,6 @@
 <h1>Link not found</h1>
 <h2>Klik op de knop om weer terug te gaan</h2>
-<img src="src/Images/LinkNotFound.png" alt="Link not found">
+<img src="/LinkNotFound.png" alt="Link not found">
 <a href="/">Ga terug naar hoofdpagina</a>
 
 <style>
@@ -32,7 +32,6 @@
         box-shadow: 0px 0px 3px white;
         border-radius: 2em;
         z-index: 9999;
-        /* transform: translateX(50%); */
         transition: all .5s ease-in-out;
         font-size: 1.1rem;
         display: block;

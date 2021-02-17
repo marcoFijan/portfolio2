@@ -289,4 +289,4 @@
     <a href="#contact" class="{enableStickyButton ? 'stickyCTAButton': ''}">{ctaButtonContent}<i class="far fa-calendar-check"></i></a>
 </article>
 
-<img style="transform: translate(0,{-y * 1}px)" src="/../../Images/IntroImage.png" alt="IntroImage"/>
+<img style="transform: translate(0,{-y * 1}px)" src="/IntroImage.png" alt="IntroImage"/>

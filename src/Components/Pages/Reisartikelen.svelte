@@ -9,11 +9,6 @@
         box-sizing: border-box;
     }
 
-    /* h3{
-        border-top: .5px solid rgb(150, 150, 150);
-        padding-top: 2rem;
-    } */
-
     div{
         position: relative; 
         width: 100%; 
@@ -52,13 +47,13 @@
     githubLink={'n.v.t.'}
     liveLink={'https://www.figma.com/proto/w6Y44DPKMD8ttJCWdfOuyt/Reisartikelen.nl-HiFi-Final?node-id=1%3A2&scaling=scale-down-width'}>
     <h3>Orgineel Ontwerp</h3>
-    <img src="/src/Images/Reisartikelen.nlOrgineel.png" alt="Reisartikelen.nl - Orgineel"/>
+    <img src="/Reisartikelen.nlOrgineel.png" alt="Reisartikelen.nl - Orgineel"/>
     <p>Ik kreeg toestemming om flink van de standaard huisstijl af te stappen. Reisartikelen was namelijk ook erg opzoek om hun funnels en conversieratio te verbeteren. Uiteraard moesten de fonts en kleuren hetzelfde blijven. Ik heb me voornamelijk gefocust op verschillende commercieël ontwerp principes zoals call to action buttons, vertrouwen creeëren, social proof en content in footer.</p>
     <h3>LoFi Ontwerp</h3>
-    <img src="/src/Images/Reisartikelen.nl-LoFi.png" alt="Reisartikelen.nl - LoFi"/>    
+    <img src="/Reisartikelen.nl-LoFi.png" alt="Reisartikelen.nl - LoFi"/>    
     <p>In het eerste herontwerp zorgde ik voor een grote banner. Ook zorgde ik ervoor dat bezoekers in de header zich kunnen inschrijven voor de nieuwsbrief. De vermelde korting stimuleert bezoekers om zich in te schrijven. Ook gebruik ik veel verkoopsslogans die toepasselijk zijn voor de website onder de banner. De footer is nu ook meer opgevuld met nuttige informatie maar houdt dit inzichtelijk.</p>
     <h3>HiFi Ontwerp</h3>
-    <img src="/src/Images/Reisartikelen.nl-HiFi-Final.png" alt="Reisartikelen.nl - HIFI"/>
+    <img src="/Reisartikelen.nl-HiFi-Final.png" alt="Reisartikelen.nl - HIFI"/>
     <p>Na een feedbackronde van het LoFi-ontwerp ging ik verder met het ontwerp. Ik veranderde de verkoopslogans in iets wat relevanter was voor tijdens de coronamaatregelen. De knoppen ronde ik af. Dit heeft een hogere conversie. Voor het inschrijven van de nieuwsbrief ontwierp ik een nieuwe section op de pagina zelf. In de header zette ik een kleine call to action die mensen trekt naar de nieuwsbrief sectie. </p>
     <h3>Presentatie aan opdrachtgever</h3>
     <div>
