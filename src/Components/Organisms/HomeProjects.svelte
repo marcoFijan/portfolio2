@@ -7,6 +7,7 @@
         width: 100%;
         padding: 5rem 10%;
         box-sizing: border-box;
+        z-index: 999 !important;
     }
 
     h1{

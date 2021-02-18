@@ -7,6 +7,7 @@
         height: 30vh;
         max-width: 80%;
         overflow: visible; 
+        z-index: 0 !important;
     }
 
     svg path:first-child{
