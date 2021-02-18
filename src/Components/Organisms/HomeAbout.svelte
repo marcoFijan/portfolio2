@@ -56,6 +56,7 @@
 
     .aboutContent img{
         max-width: 20rem;
+        max-height: 30rem;
         margin: 0 auto;
         border-radius: .2rem;
         object-fit: cover;
