@@ -104,6 +104,7 @@
         background: white !important;
         outline: none;
         line-height: 1.5rem;
+        transform:translateY(-.25rem);
     }
 
     form input:required:invalid, form textarea:required:invalid{

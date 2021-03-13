@@ -64,13 +64,18 @@
         transition: all .5s ease-in-out;
         margin: 0 auto;
         box-shadow: 0px 0px 0px white;
+        background: linear-gradient(164deg, transparent, transparent, #34caee, #b239b6);
+        background-size: 300%;
+        background-position: left;
     }
 
     .goBackButton:hover{
-        background: rgba(59,167,253,1);
+        /* background: rgba(59,167,253,1); */
+        /* background: linear-gradient(164deg, transparent, transparent, #34caee, #b239b6); */
         color: white;
         border: 1px solid white;
         box-shadow: 0px 0px 3px white;
+        background-position: right;
     }
 
     @media only screen and (max-width: 900px) {

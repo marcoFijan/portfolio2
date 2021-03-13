@@ -28,10 +28,10 @@
         <p>Aangezien dit dashboard privé RingRing data bevat, is er een inlogpagina waar er ingelogd dient te worden.</p>
         <h3>Dashboard</h3>
         <img src="/RingRing2.jpg" alt="Ring-Ring Dashboard"/>
-        <p>Op de dashboardpagina word er een globaal overzicht getoond waar alle deatilpagina's zichbaar zijn: Kaart, datavisualisatie en feedback</p>
+        <p>Op de dashboardpagina wordt er een globaal overzicht getoond waar alle deatilpagina's zichbaar zijn: Kaart, datavisualisatie en feedback</p>
         <h3>Voor u pagina</h3>
         <img src="/RingRing3.jpg" alt="Ring-Ring For You"/>
-        <p>Op de Voor U pagina worden datavisualisaties getoond die relevant zijn voor de betreffende persoon die ingelogd is. In dit voorbeeld ligt de focus op Tijdstippen. Hier wordt met D3 een stackedbarchart getoond. De gekleurde bars kunnen weggefiltered worden door op de betreffende filter te klikken aan de rechterkant. Daarnaast is het mogelijk om de data te filteren op dagen in plaats van tijdstippen. Naast de stacked barchart worden er ook andere data gevisualiseerd in een simpel leesbar vak en een piechart die ook met D3 ontworpen is.</p>
+        <p>Op de Voor U pagina worden datavisualisaties getoond die relevant zijn voor de betreffende persoon die ingelogd is. In dit voorbeeld ligt de focus op tijdstippen. Hier wordt met D3 een stackedbarchart getoond. De gekleurde bars kunnen weggefiltered worden door op de betreffende filter te klikken aan de rechterkant. Daarnaast is het mogelijk om de data te filteren op dagen in plaats van tijdstippen. Naast de stacked barchart worden er ook andere data gevisualiseerd in een simpel leesbar vak en een piechart die ook met D3 ontworpen is.</p>
         <h3>Kaart pagina</h3>
         <img src="/RingRing4.jpg" alt="Ring-Ring Map"/>
         <p>Op deze pagina kunnen de beleidsmakers de routes uitstippelen per tijdstip. Er wordt gebruik gemaakt van kleurcodes voor de nachten, spitsuren en overdag (blauw, rood en geel)</p>

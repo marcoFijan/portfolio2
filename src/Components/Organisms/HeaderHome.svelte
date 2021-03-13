@@ -30,7 +30,7 @@
         z-index: 99999;
         transition: all .5s ease-in-out;
         opacity: 0;
-        background: linear-gradient(164deg, #34caee, #4ba3e0);
+        background: linear-gradient(164deg, #34caee, #688fd7);
         border-bottom: 1px solid white;
     }
 
@@ -42,7 +42,7 @@
         list-style: none;
         display: flex;
         padding: 0 10%;
-        margin: .3rem 0;
+        margin: .8rem 0;
         flex-wrap: wrap;
         justify-content: space-between;
     }

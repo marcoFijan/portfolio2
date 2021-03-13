@@ -271,8 +271,6 @@
         a{
             bottom: 4rem;
             width: 17rem;
-            height: 2.5em;
-            line-height: 2.5em;
             font-size: 1rem;
         }
         article{

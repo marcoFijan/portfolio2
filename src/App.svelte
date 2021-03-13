@@ -41,9 +41,12 @@
   :global(body){
     min-height: 100vh;
     background: #3ba7fd;
-    background: linear-gradient(164deg, #34caee, #666bcc);
+    /* background: linear-gradient(164deg, #34caee, #666bcc); */
+    background: linear-gradient(164deg, #34caee, #8839b6);
+    /* background: linear-gradient(164deg, #34caee, #8839b6); */
     background-attachment: fixed;
     margin:0;
+    color: rgb(83, 83, 83);
   }
 
   /* Scrollbar styling */
